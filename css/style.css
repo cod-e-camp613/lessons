@@ -1,0 +1,72 @@
+
+/* In CSS you target elements either by their tag name, class or id */
+
+body {
+  background: white;
+  color: white;
+}
+.green {
+  background: green;
+  margin: 20px;
+}
+
+#blue {
+  background: blue;
+  padding: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  font-size: 12px;
+  /* margin-bottom: 20px;
+  margin-left: 20px; */
+}
+
+button:hover {
+  background: green;
+}
+
+.register {
+  background: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  /* margin-left: 90px;
+  margin-top: -40px; */
+}
+
+
+/* BOX MODEL - (margin, padding) */
+
+/* Margin - Gives space outside an element */
+/* Padding - Gives space inside an element */
+
+
+
+
+/* FLEXBOX */
+/* 
+1. You need a Parent element, 
+2. The parent has child elements */
+
+
+.parent-container {
+  display: flex; 
+  /* By default, display: flex makes children in a parent align side by side */
+
+  flex-direction: column;
+  /* Flex direction specifies the direction of the children, either in a column(vertical) or in a row(horizontal) */
+  gap: 20px;
+  
+}
